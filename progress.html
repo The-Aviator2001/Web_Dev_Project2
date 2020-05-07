@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/mobiscroll.jquery.min.css">
+    <script src="js/mobiscroll.jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>ProjectP2</title>
+  </head>
+  <body>
+      <div class=topmenu style="width: 100%; height:40px; background-color: white; padding-left: 160px;">
+        <h5> Hi Guest!</h5>
+    </div>
+
+<div >
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center" style="margin-top: -10px;">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="logo.png" alt="logo" style="width:80px; height: 35px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+        <a href="https://mywbut.com/index" >Home</a>
+    </li>
+    <li class="nav-item">
+      <a href="https://mywbut.com/study">Study Resources</a>
+    </li>
+    <li class="nav-item">
+        <a href="https://mywbut.com/answer">Ask Question</a>
+    </li>
+
+<li class="nav-item"><a href="https://mywbut.com/training-workshop/elements-of-engineering">Workshops</a></li>
+
+<li class="nav-item">
+    <a href="https://mywbut.com/training-workshop/online-summer-training">Online Summer Training</a>
+</li>
+
+<li class="nav-item">
+    <a href="https://mywbut.com/telos20/">TELOS 2020</a>
+</li>
+<li class="nav-item">
+    <a href="https://mywbut.com/admission/">Admission</a>
+</li>
+  </ul>
+  </nav>
+  
+</div>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item" aria-current="page" class="float-right" ><div class="page-title"style="margin-right: 100px;">
+        <div >
+            <h1  ><span class="fa fa-book"></span > Study Resources</h1>
+        </div></li>
+    </ol>
+  </nav>
+ 
+    <nav aria-label="breadcrumb" style="margin-top:-20px;">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Study Resource</a></li>
+          <li class="breadcrumb-item " ><a href="#">Computer Science & Engineering</a></li>
+          <li class="breadcrumb-item"><a href="#"> Semester-2 New</a></li>
+          <li class="breadcrumb-item " aria-current="page">Chemistry-I (BS-CH201)</li>
+        </ol>
+      </nav>
+    
+</div>
+<div class="row" >
+<div class ="col-md-8 col-sm-6" style="margin: 0 auto;  ">
+    <h1 class="title" style=" font-size: xx-large;">
+        <centre>Formal Language & Automate Theory (PCC-CS403)</centre>
+    </h1>
+    <br/><br/>
+    <label class="mbsc-segmented-info ">
+      Syllabus
+      <input mbsc-segmented type="radio" data-icon="pencil"  id="s1" name="group-info" checked>
+  </label>
+  <label class="mbsc-segmented-info">
+      Study Material
+      <input mbsc-segmented type="radio" data-icon="book" id="s2" name="group-info">
+  </label>
+  <label class="mbsc-segmented-info">
+      Video Tutorial
+      <input mbsc-segmented type="radio" data-icon="play" id="s3" name="group-info">
+  </label>
+  <label class="mbsc-segmented-info">
+    Question Paper
+    <input mbsc-segmented type="radio" data-icon="folder" id="s4" name="group-info">
+</label>
+<label class="mbsc-segmented-info">
+  Suggestion
+  <input mbsc-segmented type="radio" data-icon="bubbles" id="s5" name="group-info">
+</label>
+
+    <div class="progress" style="margin-top: 20px;" id="p1">
+        <div class="progress-bar bg-info" style="width:20%"></div>
+      </div>
+      <div class="progress" style="margin-top: 20px;" id="p2">
+        <div class="progress-bar bg-info" style="width:40%"></div>
+      </div>
+      <div class="progress" style="margin-top: 20px;"id="p3">
+        <div class="progress-bar bg-info" style="width:60%"></div>
+      </div>
+      <div class="progress" style="margin-top: 20px;"id="p4">
+        <div class="progress-bar bg-info" style="width:80%"></div>
+      </div>
+      <div class="progress" style="margin-top: 20px;"id="p5">
+        <div class="progress-bar bg-info" style="width:100%"></div>
+      </div></br></br>
+      <table class="table table-hover" id="t1">
+        <thead>
+          <tr>
+            <th>Syllabus</th>
+            <th>   </th>
+            <th>Option</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Syllabus</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+      
+      <table class="table table-hover" id ="t2">
+        <thead>
+          <tr>
+            <th>Chapter</th>
+            <th>   </th>
+            <th>Option</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Complete Lecture Note</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+            <tr>
+            <td>Introduction</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Nondeterministic Finite Automata</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Automata and Grammer</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Regular Expressions</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Finite Automata</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Regular Grammers</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+      <table class="table table-hover" id ="t3">
+        <thead>
+          <tr>
+            <th>Chapter</th>
+            <th>   </th>
+            <th>Option</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GRAMMARS AND NATURAL LANGUAGE PROCESSING [53:26]</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-play-circle-o"></span> Download</a>
+            </td>
+          </tr>
+            <tr>
+            <td>GRAMMARS AND LANGUAGES GENERATED [49:35]	
+            </td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-play-circle-o"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>GRAMMARS AND LANGUAGES GENERATED (Contd) [49:27]	
+            </td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-play-circle-o"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>AMBIGUITY IN CFG [57:10]</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-play-circle-o"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>SIMPLICATION OF CFG [56:03]</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-play-circle-o"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>GREIBACH NORMAL FORM FOR CFG [50:12]</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-play-circle-o"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>FINAL STATE AUTOMATA [56:05]</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-play-circle-o"></span> Download</a>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+      <table class="table table-hover" id ="t4">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>   </th>
+            <th>Option</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2007</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+            <tr>
+            <td>2008	
+            </td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009	
+            </td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2013</td>
+            <td> </td>
+            <td>
+                <a href="http://www.wbuthelp.com/chapter_file/47.pdf" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+      <table>
+      <table class="table table-hover" id ="t5">
+        <thead>
+          <tr>
+            <th>Chapter</th>
+            <th>   </th>
+            <th>Option</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>FULL LENGTH MODEL PAPER 1</td>
+            <td> </td>
+            <td>
+                <a href="" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+            <tr>
+            <td>FULL LENGTH MODEL PAPER 2	
+            </td>
+            <td> </td>
+            <td>
+                <a href="" class="btn btn-primary"><span class="fa fa-download"></span> Download</a>
+            </td>
+          </tr>
+        </tbody>
+          </table>
+ </div>
+</div>
+</div>
+<br />
+<br />
+<br />
+</br>
+</br>
+</br>
+</br>
+
+<footer>
+    <div class="container" style="text-align: center;margin-bottom: 10px;word-spacing: 10px; padding-top: 5px;">
+
+   
+   <a href="" style="color:white;">About Us</a> <a href="" style="color:white">Online Summer Training</a> <a href="" style="color:white;">WBJEE 2020</a> <a href="" style="color:white;">Contact Us</a>
+       
+    
+     
+     </div>
+    
+</footer>
+
+  
+<script>
+$(document).ready(function(){
+$("#s1").click(function(){
+  $('#p2,#t2').hide();
+  $('#p4,#t4').hide();
+$('#p3,#t3').hide();
+$('#p5,#t5').hide();  
+  $('#p1,#t1').toggle();
+
+
+
+});
+
+
+$('#p2,#t2').hide();
+$('#s2').click(function(){
+$('#p1,#t1').hide();
+$('#p4,#t4').hide();
+$('#p3,#t3').hide();
+$('#p5,#t5').hide();  
+$('#p2,#t2').toggle();
+
+
+});
+$('#p3,#t3').hide();
+$('#s3').click(function(){
+  $('#p2,#t2').hide();
+  $('#p1,#t1').hide();
+  $('#p4,#t4').hide(); 
+  $('#p5,#t5').hide(); 
+$('#p3,#t3').toggle();
+
+
+});
+$('#p4,#t4').hide();
+$('#s4').click(function(){
+  $('#p2,#t2').hide();
+  $('#p1,#t1').hide(); 
+  $('#p3,#t3').hide(); 
+  $('#p5,#t5').hide(); 
+$('#p4,#t4').toggle();
+
+
+});
+$('#p5,#t5').hide();
+$('#s5').click(function(){
+  $('#p2,#t2').hide();
+  $('#p1,#t1').hide(); 
+  $('#p3,#t3').hide(); 
+  $('#p4,#t4').hide(); 
+$('#p5,#t5').toggle();
+// segmented button end
+});
+
+});
+
+</script>
+</body>
+</html>

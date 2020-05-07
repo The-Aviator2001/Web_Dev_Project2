@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>ProjectP1</title>
+  </head>
+  <body>
+      <div class=topmenu style="width: 100%; height:40px; background-color: white; padding-left: 160px;">
+        <h5> Hi Guest!</h5>
+    </div>
+
+<div >
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center" style="margin-top: -10px;">
+  <!-- Brand/logo -->
+  <a class="navbar-brand " href="#">
+    <img src="logo.png" alt="logo" style="width:80px; height: 35px;">
+  </a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+  <!-- Links -->
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+        <a href="https://mywbut.com/index" >Home</a>
+    </li>
+    <li class="nav-item">
+      <a href="https://mywbut.com/study">Study Resources</a>
+    </li>
+    <li class="nav-item">
+        <a href="https://mywbut.com/answer">Ask Question</a>
+    </li>
+
+<li class="nav-item"><a href="https://mywbut.com/training-workshop/elements-of-engineering">Workshops</a></li>
+
+<li class="nav-item">
+    <a href="https://mywbut.com/training-workshop/online-summer-training">Online Summer Training</a>
+</li>
+
+<li class="nav-item">
+    <a href="https://mywbut.com/telos20/">TELOS 2020</a>
+</li>
+<li class="nav-item">
+    <a href="https://mywbut.com/admission/">Admission</a>
+</li>
+  </ul>
+  <div class="btn-group" role="group" aria-label="Basic example" >
+    <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"  data-content="hello guys">Login</button>
+    <button type="button" class="btn btn-secondary"> <i class='fas fa-user-plus'></i> Sign Up</button>
+  </div>
+  </nav>
+  
+</div>
+  
+  
+  
+  
+  
+  <div class ="home" style="padding-top: 30px;">
+    <div class="container" style="text-align: center;">    
+        <h1 class="title" style="color:whitesmoke;font-size:70px;">Study <span style="color:#0080ff;font-size:70px;">Resources</span><!-- <span class="version">v 1.0</span> --></h1>
+        <h2 class="subtitle" style="color: gainsboro">Your study begins here</h2>
+        <a class="btn btn-info btn-lg" href="#startit">Start It <i class="fa fa-chevron-down"></i></a>
+       
+        </div>
+</div> 
+<div class="container" id="startit">
+	<br /><br />
+	<!----------------- body --------------------------------------------->
+		<!-------- departments --------------->
+		<h1 class="title"><center>Hey! what you study ?</center></h1>
+		<div align="center">
+			<button type="button" class="btn btn-outline-secondary" id="1"> Computer Science and Engineering </button> <button type="button" class="btn btn-outline-secondary" id="2">Information Technology</button> <button type="button" class="btn btn-outline-secondary" id="3">Electronics and Communication</button> <button type="button" class="btn btn-outline-secondary" id="4">Electrical Engineering</button> <br /><br /><button type="button" class="btn btn-outline-secondary" id="5">Instrumentation(AEIE)</button> <button type="button" class="btn btn-outline-secondary" id ="6">Mechanical Engineering</button> <button type="button" class="btn btn-outline-secondary" id="7">Civil Engineering</button> <button type="button" class="btn btn-outline-secondary" id="8">MBA</button> <br /><br /><button type="button" class="btn btn-outline-secondary" id="9">BCA</button> <button type="button" class="btn btn-outline-secondary" id="10">MCA</button>		</div>
+		
+		<br /><br />
+		<!-------- semester --------------->
+
+
+    <div id="semester" align="center"><h1 class="title">Which semester you are in?</h1><button type="button" class="btn btn-outline-warning" id="a">Semester 1</button> <button type="button" class="btn btn-outline-warning" id="b">Semester 2</button> <button type="button" class="btn btn-outline-warning" id="c">Semester 3</button> <button type="button" class="btn btn-outline-warning" id="d">Semester 4</button> <button type="button" class="btn btn-outline-warning" id="e">Semester 5</button> <button type="button" class="btn btn-outline-warning" id="f">Semester 6</button> <button type="button" class="btn btn-outline-warning" id="g">Semester 7</button><button type="button" class="btn btn-outline-warning" id="h">Semester 8</button> </div>
+
+		<br /><br />
+	
+	
+    <!-------- // paper --------------->
+   <div id="paper" align="center"><h1 class="title">This is all you have to know this sem</h1>
+    <div class="row">		
+      <div class="col-md-4">
+    
+      <div class="card">
+        <div class="card-heading bg-info" >Formal Language &amp; Automata Theory</div>
+        <div class="card-body">
+        <p>Paper Code : <b>PCC-CS403</b></p>
+        <p>Credit Points : <b>3</b></p>
+       <a href="progress.html" class="btn btn-primary btn-sm">Syllabus</a>
+        <a href="syllabus/paper/14/dept/2/?mode=SM" class="btn btn-info btn-sm">Study Notes</a>
+        <a href="syllabus/paper/14/dept/2/?mode=QP" class="btn btn-success btn-sm">Question Paper</a><br><br>
+        <a href="syllabus/paper/14/dept/2/?mode=VT" class="btn btn-outline-secondary btn-sm">Video Tutorial</a>
+        <a href="syllabus/paper/14/dept/2/?mode=SP" class="btn btn-danger btn-sm">Suggestion</a>
+        </div>
+      </div>
+    </div>		
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-heading bg-info">Computer Architecture</div>
+        <div class="card-body">
+        <p>Paper Code : <b>PCC-CS402</b></p>
+        <p>Credit Points : <b>3</b></p>
+       <a href="progress.html" class="btn btn-primary btn-sm">Syllabus</a>
+        <a href="syllabus/paper/16/dept/2/?mode=SM" class="btn btn-info btn-sm">Study Notes</a>
+        <a href="syllabus/paper/16/dept/2/?mode=QP" class="btn btn-success btn-sm">Question Paper</a><br><br>
+        <a href="syllabus/paper/16/dept/2/?mode=VT" class="btn btn-outline-secondary btn-sm">Video Tutorial</a>
+        <a href="syllabus/paper/16/dept/2/?mode=SP" class="btn btn-danger btn-sm">Suggestion</a>
+        </div>
+      </div>
+    </div>		<div class="col-md-4">
+      <div class="card ">
+        <div class="card-heading bg-info">Discrete Mathematics</div>
+        <div class="card-body">
+        <p>Paper Code : <b>PCC-CS401</b></p>
+        <p>Credit Points : <b>4</b></p>
+       <a href="progress.html" class="btn btn-primary btn-sm">Syllabus</a>
+        <a href="syllabus/paper/614/dept/2/?mode=SM" class="btn btn-info btn-sm">Study Notes</a>
+        <a href="syllabus/paper/614/dept/2/?mode=QP" class="btn btn-success btn-sm">Question Paper</a><br><br>
+        <a href="syllabus/paper/614/dept/2/?mode=VT" class="btn btn-outline-secondary btn-sm">Video Tutorial</a>
+        <a href="syllabus/paper/614/dept/2/?mode=SP" class="btn btn-danger btn-sm">Suggestion</a>
+        </div>
+      </div>
+    </div></div><div class="row">		<div class="col-md-4">
+      <div class="card">
+        <div class="card-heading bg-info">Design &amp; Analysis of Algorithms</div>
+        <div class="card-body">
+        <p>Paper Code : <b>PCC-CS404</b></p>
+        <p>Credit Points : <b>3</b></p>
+       <a href="progress.html" class="btn btn-primary btn-sm">Syllabus</a>
+        <a href="syllabus/paper/615/dept/2/?mode=SM" class="btn btn-info btn-sm">Study Notes</a>
+        <a href="syllabus/paper/615/dept/2/?mode=QP" class="btn btn-success btn-sm">Question Paper</a><br><br>
+        <a href="syllabus/paper/615/dept/2/?mode=VT" class="btn btn-outline-secondary btn-sm">Video Tutorial</a>
+        <a href="syllabus/paper/615/dept/2/?mode=SP" class="btn btn-danger btn-sm">Suggestion</a>
+        </div>
+      </div>
+    </div>		<div class="col-md-4">
+      <div class="card">
+        <div class="card-heading bg-info">Biology</div>
+        <div class="card-body">
+        <p>Paper Code : <b>BSC 401</b></p>
+        <p>Credit Points : <b>3</b></p>
+       <a href="progress.html" class="btn btn-primary btn-sm">Syllabus</a>
+        <a href="syllabus/paper/616/dept/2/?mode=SM" class="btn btn-info btn-sm">Study Notes</a>
+        <a href="syllabus/paper/616/dept/2/?mode=QP" class="btn btn-success btn-sm">Question Paper</a><br><br>
+        <a href="syllabus/paper/616/dept/2/?mode=VT" class="btn btn-outline-secondary btn-sm">Video Tutorial</a>
+        <a href="syllabus/paper/616/dept/2/?mode=SP" class="btn btn-danger btn-sm">Suggestion</a>
+        </div>
+      </div>
+    </div>		<div class="col-md-4">
+      <div class="card ">
+        <div class="card-heading bg-info">Environmental Sciences</div>
+        <div class="card-body">
+        <p>Paper Code : <b>MC401</b></p>
+        <p>Credit Points : <b>1</b></p>
+       <a href="progress.html" class="btn btn-primary btn-sm">Syllabus</a>
+        <a href="syllabus/paper/617/dept/2/?mode=SM" class="btn btn-info btn-sm">Study Notes</a>
+        <a href="syllabus/paper/617/dept/2/?mode=QP" class="btn btn-success btn-sm">Question Paper</a><br><br>
+        <a href="syllabus/paper/617/dept/2/?mode=VT" class="btn btn-outline-secondary btn-sm">Video Tutorial</a>
+        <a href="syllabus/paper/617/dept/2/?mode=SP" class="btn btn-danger btn-sm">Suggestion</a>
+        </div>
+      </div>
+    </div></div>
+    <div class="row">		
+      <div class="col-md-4"style="margin-top: 10px;">
+      <div class="card border-success">
+        <div class="card-heading bg-success">Design &amp; Analysis of Algorithms [Lab]</div>
+        <div class="card-body">
+        <p>Paper Code : <b>PCC-CS494</b></p>
+        <p>Credit Points : <b>2</b></p>
+       <a href="progress.html" class="btn btn-primary btn-sm">Syllabus</a>
+        <a href="syllabus/paper/618/dept/2/?mode=SM" class="btn btn-info btn-sm">Study Notes</a>
+        <a href="syllabus/paper/618/dept/2/?mode=QP" class="btn btn-success btn-sm">Question Paper</a><br><br>
+        <a href="syllabus/paper/618/dept/2/?mode=VT" class="btn btn-outline-secondary btn-sm">Video Tutorial</a>
+        <a href="syllabus/paper/618/dept/2/?mode=SP" class="btn btn-danger btn-sm">Suggestion</a>
+        </div>
+      </div>
+    </div>		
+    <div class="col-md-4" style="margin-top: 10px;">
+      <div class="card border-success">
+        <div class="card-heading bg-success">Compter Architecture [Lab]</div>
+        <div class="card-body">
+        <p>Paper Code : <b>PCC-CS 492</b></p>
+        <p>Credit Points : <b>2</b></p>
+       <a href="progress.html" class="btn btn-primary btn-sm">Syllabus</a>
+        <a href="syllabus/paper/619/dept/2/?mode=SM" class="btn btn-info btn-sm">Study Notes</a>
+        <a href="syllabus/paper/619/dept/2/?mode=QP" class="btn btn-success btn-sm">Question Paper</a><br><br>
+        <a href="syllabus/paper/619/dept/2/?mode=VT" class="btn btn-outline-secondary btn-sm">Video Tutorial</a>
+        <a href="syllabus/paper/619/dept/2/?mode=SP" class="btn btn-danger btn-sm">Suggestion</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div> 
+
+<!--------------------------------------------------------------------------->
+
+
+
+
+
+
+
+		
+		
+	<!-------------------- end of body ----------------------------------->
+   
+<br />
+<br />
+<br />
+<footer >
+    <div class="container" style="text-align: center;margin-top: 5px;word-spacing: 10px; padding-top: 5px;">
+
+   
+   <a href="" style="color:white;">About Us</a> <a href="" style="color:white">Online Summer Training</a> <a href="" style="color:white;">WBJEE 2020</a> <a href="" style="color:white;">Contact Us</a>
+       
+    
+     
+     </div>
+    
+    </footer>
+<!-- // Footer END -->
+
+<script>
+
+$(document).ready(function(){
+ $('#semester').hide();
+  $('#1').click(function(){
+      $('#semester').toggle(200);
+     
+  });
+  $('#paper').hide();
+  $('#a').click(function(){
+$('#paper').toggle(200);
+
+
+  });
+  $('#semester').hide();
+  $('#2').click(function(){
+      $('#semester').toggle(200);
+     
+  });
+  $('#paper').hide();
+  $('#b').click(function(){
+$('#paper').toggle(200);
+
+
+  });
+  $('#semester').hide();
+  $('#3').click(function(){
+      $('#semester').toggle(200);
+     
+  });
+  $('#paper').hide();
+  $('#c').click(function(){
+$('#paper').toggle(200);
+
+
+  });
+
+
+
+
+
+
+
+
+
+
+  
+});
+</script>
+
+
+<script>
+ $(function () {   
+  $('[data-toggle="popover"]').popover() 
+})
+   
+</script>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+    
+
+
+
+   
+    
+  </body>
+</html>
